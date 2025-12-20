@@ -16,7 +16,7 @@ text_classification_project/
 
 ## Requirements
 
-- Python 3.8 - 3.10
+- Python 3.8 - 3.12
 - TensorFlow
 - Hugging Face Transformers
 - Datasets (from Hugging Face)
@@ -28,7 +28,7 @@ text_classification_project/
 Clone the project to your local machine:
 
 ```bash
-git clone https://github.com/your_username/tf_txt_classif.git
+git clone https://github.com/aleksbal/tf_sentiment.git
 cd text_classification_project
 ```
 
