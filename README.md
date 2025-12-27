@@ -9,6 +9,7 @@ This project is a text sentiment classification tool built with TensorFlow and H
 text_classification_project/
 ├── env/                     # Virtual environment directory
 ├── main.py                  # Main script for training and saving the model
+├── ner_example.py           # Example script for simple NER (person names)
 ├── use_model.py             # Script for loading the model and making predictions
 ├── requirements.txt         # File to track dependencies
 └── README.md                # Project documentation
@@ -44,7 +45,7 @@ python3.10 -m venv env
 # On macOS/Linux
 source env/bin/activate
 # On Windows
-.\env\Scriptsctivate
+.\env\Scripts\activate
 ```
 
 ### 3. Install Dependencies
@@ -175,6 +176,25 @@ Expected output:
 ```
 Text: The movie was amazing! | Sentiment: Positive
 Text: I really disliked the plot. | Sentiment: Negative
+```
+
+## Simple NER Example (Person Names)
+
+The `ner_example.py` script shows a minimal named entity recognition (NER) workflow that searches
+for personal names in multiple documents.
+
+### Running the NER Script
+
+```bash
+python ner_example.py
+```
+
+Example output:
+
+```
+doc_1: Alice Johnson, Bob Smith, Charlie Brown
+doc_2: Emily Zhang, Michael Jordan
+doc_3: Priya Kapoor, Alex Li
 ```
 
 ## Deactivating the Environment
