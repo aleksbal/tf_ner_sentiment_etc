@@ -1,7 +1,7 @@
 
 # Text Classification Project with TensorFlow and Hugging Face Transformers
 
-This project is a text sentiment classification tool built with TensorFlow and Hugging Face’s Transformers library. It demonstrates how to train a binary text classifier on the IMDb movie review dataset, save the trained model, and use it manually for predictions. The example provided is based on Transformers, specifically using the DistilBERT model, which belongs to the Transformer architecture family.
+This project demonstrates a text sentiment classification tool built with TensorFlow and Hugging Face’s Transformers library. It demonstrates how to train a binary text classifier on the IMDb movie review dataset, save the trained model, and use it manually for predictions. The example provided is based on the DistilBERT model, which belongs to the Transformer architecture family.
 
 ## Project Structure
 
